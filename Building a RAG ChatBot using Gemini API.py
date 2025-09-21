@@ -1,6 +1,6 @@
 # %%
 import os
-os.environ["GEMINI_API_KEY"]="AIzaSyC3xzwKpOkR9N7K944bZTkGhkEf6QGF9BM"
+os.environ["GEMINI_API_KEY"]="Google API Key"
 
 # %%
 !pip install chromadb pypdf rouge_score
@@ -246,6 +246,7 @@ print(f"ROUGE-L: {rouge_scores['rougeL']:.4f}")
 
 
 # %%
+
 
 
 
